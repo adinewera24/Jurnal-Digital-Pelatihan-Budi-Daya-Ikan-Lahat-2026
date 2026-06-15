@@ -107,14 +107,6 @@ export default function LoginView({ onLoginSuccess, onClose }: LoginViewProps) {
             </div>
           </div>
 
-          {/* Tips Testing box */}
-          <div className="bg-emerald-50/70 p-3.5 rounded-xl border border-emerald-200/50 space-y-1 text-left">
-            <span className="text-[10px] font-bold text-emerald-800 uppercase tracking-wider block">Kredensial Akses Pengujian:</span>
-            <div className="text-[11px] text-slate-600 font-medium">
-              Username: <code className="bg-emerald-100 px-1 py-0.5 rounded font-bold">admin</code><br />
-              Kata Sandi: <code className="bg-emerald-100 px-1 py-0.5 rounded font-bold">admin123</code>
-            </div>
-          </div>
 
           <button
             type="submit"
